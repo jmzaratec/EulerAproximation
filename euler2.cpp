@@ -24,7 +24,7 @@ double ite(double alfa,int n, double a, double b,double k)
 	// OPEN up a file *.CSV to write data (already created)
 			std::ofstream output;
 			//Route of my *.csv file:   
-			output.open("C:/Users/jm_zarate_c/Documents/Visual Studio 2010/Projects/ScientificComputing/3_homework_Euler/Euler2/data.csv");
+			output.open("C:/Users/data.csv");
 			
 			if(!output.is_open())
 			{
